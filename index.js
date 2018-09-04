@@ -56,6 +56,7 @@ function wordsWithB(words) {
 'ashley'.startsWith('a') //true
 'ashley'.startsWith('c') //false
 'ashley'[0] === "a"
+words[i][0] === "b"
 
 wordsWithB(['ashley', 'rishi', 'brian']) // ['brian']
 wordsWithB(['bob', 'ashley', 'brian']) // ['bob', 'brian']
