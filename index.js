@@ -1,7 +1,7 @@
 function dwarfRollCall(dwarves) {
   var rollCall = "";
   for (let i = 0; i < dwarves.length; i++){
-    rollCall += `${i + 1}. ${dwarves[i]} `
+    rollCall += `${i + 1}. ${dwarves[i]}`
   }
   return rollCall;
 }
@@ -9,9 +9,9 @@ function dwarfRollCall(dwarves) {
 function summonCaptainPlanet(planeteerCalls){
   var calls = [];
   for (let i = 0; i < planeteerCalls.length; i++){
-    calls.push(planeteerCalls[i].toUpperCase() + '!')
-  }
+      calls.push(planeteerCalls[i].toUpperCase() + '!')
   return calls;
+  }
 }
 
 function longPlaneteerCalls(words) {
