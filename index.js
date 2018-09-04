@@ -34,6 +34,22 @@ function findTheCheese (foods) {
     else if (foods[i] == 'camembert'){
       return "camembert";
     }
+    else if (food[i] == 'Swiss'){
+      return "Swiss";
+    }
   }
   return 'no cheese!'
 }
+
+findTheCheese(['apple', 'gouda', 'banana', 'cheddar'])
+
+function wordsWithB(words) {
+  for (let i =0; i < words.length; i++){
+    if(words[i] == 'b')
+  }
+}
+
+
+wordsWithB(['ashley', 'rishi', 'brian']) // ['brian']
+wordsWithB(['bob', 'ashley', 'brian']) // ['bob', 'brian']
+wordsWithB(['ashley', 'rishi', 'charles']) // []
