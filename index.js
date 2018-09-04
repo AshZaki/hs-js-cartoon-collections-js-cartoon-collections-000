@@ -44,10 +44,16 @@ function findTheCheese (foods) {
 findTheCheese(['apple', 'gouda', 'banana', 'cheddar'])
 
 function wordsWithB(words) {
+  var wordsB = [];
   for (let i =0; i < words.length; i++){
-    if(words[i] == 'b')
+    if(words[i] == 'b') { // 'ashley' == 'b'
+      wordsB.push(words[i]);
+    }
   }
 }
+
+'ashley'.startsWith('a') //true
+'ashley'.startsWith('c') //false
 
 
 wordsWithB(['ashley', 'rishi', 'brian']) // ['brian']
